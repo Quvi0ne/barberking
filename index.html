@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberKing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--NAVEGACION-->
+    
+    <nav class="navbar">
+        <div class=" nav-logo">BarberKing</div>
+        <div class="nav-links">
+            <a href="#servicios">#Servicios</a>
+            <a href="#nosotros">#Nosotros</a>
+            <a href="#contacto">#Conctacto</a>
+        </div>
+    </nav>
+
+    <!--HERO-->
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">Barberia Profesional</span>
+            <h1>El estilo que<br>mereces</h1>
+            <p>Cortes clasicos y modernos con los mejores barberos</p>
+            <a href="#servicios" class="btn-primary">Ver servicios</a>
+        </div>
+    </section>
+
+    <!--SERVICIOS-->
+
+    <section class="#servicios" id="servicios">
+        <div class="section-header">
+            <span class="section-label">Nuestros servicios</span>
+            <h2>Elige lo que necesitas</h2>
+        </div>
+        <div class="cards-grid" id="cards-grid">
+            </div>
+        </div>
+    </section>
+<!--CARRITO-->
+    <div class="carrito" id="carrito">
+        <div class="carrito-header">
+            <span>🛒 Tu pedido</span>
+            <span class="carrito-count" id="carrito-count">0</span>
+        </div>
+        <div class="carrito-items" id="carrito-items">
+            <p class="carrito-vacio">Aun no has agregado servicios</p>
+        </div>
+        <div class="carrito-footer">
+            <div class="carrito-total">
+                <span>Total:</span>
+                <span id="carrito-total">Q0</span>
+            </div>
+            <button class="btn-whatsapp" id="btn-whatsapp" onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+        </div>
+    </div>
+<!--NOSOTROS-->
+    <section class="nosotros" id="nosotros">
+    <div class="nosotros-content">
+            <h2>Mas de 5 anios<br>de experiencia</h2>
+            <p>En BarberKing nos especializamos en cortes clasicos y mordernos. Nuestro equipo de barberos certificados garantiza que salgas con el mejor estilo. </p>
+        
+        <div class="stats">
+            <div class="stat"><span class="stat-num">+3000</span><span class="stat-label">Clientes</span></div>
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Anios</span></div>
+            <div class="stat"><span class="stat-num">5</span><span class="stat-label">Barberos</span></div>
+        </div>
+    </div>
+    </section>
+    <!--CONTACTO-->
+    <section class="contacto" id="contacto">
+        <div class="section-header">
+            <span class="section-label">Encuentranos</span>
+            <h2>Visitanos</h2>
+        </div>
+        <div class="contacto-info">
+            <div class="info-item">📍</div>
+            <div class="info-item">📞 +502 XXXX-XXXX </div>
+            <div class="info-item">🕐 Martes a Domingo: 8:00am - 7:00pm</div>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <p>® 2026 BarberKing</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
